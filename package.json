@@ -1,0 +1,13 @@
+{
+  "name": "mini-dot",
+  "version": "1.0.0",
+  "description": "Dot formatter for mini",
+  "main": "index.js",
+  "homepage": "https://github.com/vesln/mini-dot",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vesln/mini-dot"
+  },
+  "author": "Veselin Todorov <hi@vesln.com>",
+  "license": "MIT"
+}
