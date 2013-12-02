@@ -2,9 +2,8 @@
  * External dependencies.
  */
 
-var mini = require('mini');
-var color = mini.color;
-var Formatter = mini.Formatter;
+var hydro = require('hydro');
+var Formatter = hydro.Formatter;
 
 /**
  * Dot formatter.
@@ -35,7 +34,7 @@ Dot.prototype.beforeAll = function(tests) {
 
 Dot.prototype.afterTest = function(test) {
   var status = test.failed ? 'red' : 'green';
-  this.print(color(status, '.'));
+  this.print(this.color(status, '.'));
 };
 
 /**

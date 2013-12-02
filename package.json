@@ -1,12 +1,12 @@
 {
-  "name": "mini-dot",
+  "name": "hydro-dot",
   "version": "1.0.0",
-  "description": "Dot formatter for mini",
+  "description": "Dot formatter for hydro",
   "main": "index.js",
-  "homepage": "https://github.com/vesln/mini-dot",
+  "homepage": "https://github.com/hydrojs/hydro-dot",
   "repository": {
     "type": "git",
-    "url": "https://github.com/vesln/mini-dot"
+    "url": "https://github.com/hydrojs/hydro-dot"
   },
   "author": "Veselin Todorov <hi@vesln.com>",
   "license": "MIT"
