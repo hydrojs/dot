@@ -4,7 +4,7 @@
 
 Dot formatter for [hydro](https://github.com/hydrojs/hydro)
 
-![hydro-dot](http://f.cl.ly/items/1b2a2q0F0Y00090d1U0o/dot.png)
+![hydro-dot](http://i.imgur.com/FN6KUgZ.png)
 
 ## Usage
 
