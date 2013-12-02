@@ -45,6 +45,7 @@ Dot.prototype.afterTest = function(test) {
  */
 
 Dot.prototype.afterAll = function(result) {
+  this.println();
   this.displayResult(result);
   this.displayFailed(result);
 };
