@@ -2,8 +2,7 @@
  * External dependencies.
  */
 
-var hydro = require('hydro');
-var Formatter = hydro.Formatter;
+var Formatter = require('hydro-formatter');
 
 /**
  * Dot formatter.
