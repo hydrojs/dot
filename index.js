@@ -15,11 +15,10 @@ var Dot = Formatter.extend();
 /**
  * Before all tests.
  *
- * @param {Array} tests
  * @api public
  */
 
-Dot.prototype.beforeAll = function(tests) {
+Dot.prototype.beforeAll = function() {
   this.println();
   this.print(this.padding);
 };
@@ -32,6 +31,7 @@ Dot.prototype.beforeAll = function(tests) {
  */
 
 Dot.prototype.afterTest = function(test) {
+  if (test.skipped) return;
   var status = test.failed ? 'red' : 'green';
   this.print(this.color(status, '.'));
 };
@@ -39,14 +39,13 @@ Dot.prototype.afterTest = function(test) {
 /**
  * After all tests.
  *
- * @param {Result} test result
  * @api public
  */
 
-Dot.prototype.afterAll = function(result) {
+Dot.prototype.afterAll = function() {
   this.println();
-  this.displayResult(result);
-  this.displayFailed(result);
+  this.displayResult();
+  this.displayFailed();
 };
 
 /**
