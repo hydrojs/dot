@@ -33,7 +33,7 @@ Dot.prototype.beforeAll = function() {
 Dot.prototype.afterTest = function(test) {
   if (test.skipped) return;
   var status = test.failed ? 'red' : 'green';
-  this.print(this.color(status, '.'));
+  this.print(this.color('.', status));
 };
 
 /**

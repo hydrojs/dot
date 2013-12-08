@@ -12,7 +12,7 @@
     "hydro": "0.x"
   },
   "dependencies": {
-    "hydro-formatter": "~1.0.0"
+    "hydro-formatter": "~2.0.0"
   },
   "author": "Veselin Todorov <hi@vesln.com>",
   "license": "MIT"
