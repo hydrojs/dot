@@ -48,6 +48,32 @@ Dot.prototype.afterAll = function() {
 };
 
 /**
+ * display test counts grouped by type
+ *
+ * @api private
+ */
+
+Dot.prototype.displayResult = function() {
+  var failing = this.failed.length;
+  var skipped = this.skipped.length;
+  var total = this.tests.length;
+  var pending = this.pending.length;
+  var passing = total - skipped - failing;
+  var time = this.tests.reduce(function(sum, test) {
+    return sum + test.time;
+  }, 0);
+
+  this.println();
+  this.println(''
+    + this.color(passing ? passing + ' passing ' : '', 'green')
+    + this.color(pending ? pending + ' pending ' : '', 'yellow')
+    + this.color(skipped ? skipped + ' skipped ' : '', 'blue')
+    + this.color(failing ? failing + ' failing ' : '', 'red')
+    + '\033[90m(' + this.ms(time) + ')'); // grey
+  this.println();
+};
+
+/**
  * Primary export.
  */
 

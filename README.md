@@ -4,7 +4,13 @@
 
 Dot formatter for [hydro](https://github.com/hydrojs/hydro)
 
-![hydro-dot](http://i.imgur.com/FN6KUgZ.png)
+When everything goes well your results will look like this:
+
+<img src=images/best-case.png width=170px />
+
+Otherwise it progressively shows you pending, skipped, and failed tests if they exist. With some of everything it looks like this:
+
+![hydro-dot](images/kitchen-sink.png)
 
 ## Usage
 
