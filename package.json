@@ -17,6 +17,7 @@
   "dependencies": {
     "hydro-formatter": "*"
   },
+  "files": ["index.js"],
   "author": "Veselin Todorov <hi@vesln.com>",
   "license": "MIT"
 }
