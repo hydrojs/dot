@@ -1,6 +1,6 @@
 {
   "name": "hydro-dot",
-  "version": "1.0.5",
+  "version": "2.0.0",
   "description": "Dot formatter for hydro",
   "main": "index.js",
   "homepage": "https://github.com/hydrojs/hydro-dot",
@@ -10,6 +10,9 @@
   },
   "peerDependencies": {
     "hydro": "0.x"
+  },
+  "devDependencies": {
+    "hydro": "*"
   },
   "dependencies": {
     "hydro-formatter": "*"
