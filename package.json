@@ -1,6 +1,6 @@
 {
   "name": "hydro-dot",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Dot formatter for hydro",
   "main": "index.js",
   "homepage": "https://github.com/hydrojs/dot",
